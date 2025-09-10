@@ -5,8 +5,8 @@
                 <h1>Esther Azevedo</h1>
                 <h2>Information Systems Student - UFC</h2>
                 <p>
-                    Passionate about technology and focused on software development. Currently learning Vue
-                    and web application development, always seeking to combine theory with hands-on practice.
+                    Passionate about technology and focused on software development. Currently advancing in web
+                    application development, always seeking to combine theory with practice.
                 </p>
 
                 <div class="button">
