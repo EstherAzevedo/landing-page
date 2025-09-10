@@ -3,16 +3,15 @@
         <div class="content">
             <div class="info">
                 <h1>Esther Azevedo</h1>
-                <h2>Graduanda em Sistemas de Informação - UFC</h2>
+                <h2>Information Systems Student - UFC</h2>
                 <p>
-                    Sou apaixonada por tecnologia e tenho interesse em desenvolvimento de software,
-                    com foco especial em aplicações web. Atualmente estudo Vue e outras tecnologias do ecossistema web,
-                    sempre em busca de criar projetos que unam aprendizado e prática.
+                    Passionate about technology and focused on software development. Currently learning Vue
+                    and web application development, always seeking to combine theory with hands-on practice.
                 </p>
 
                 <div class="button">
                     <router-link to="/projects">
-                        <button>Projetos</button>
+                        <button>Projects</button>
                     </router-link>
                 </div>
             </div>
