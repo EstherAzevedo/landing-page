@@ -17,7 +17,7 @@
             </div>
 
             <div class="foto">
-                <a href="/"><img src="/esther.jpeg" alt="Foto de Esther" /></a>
+                <a href="/aboutMe"><img src="/esther.jpeg" alt="Foto de Esther" /></a>
                 <div class="social-links">
                     <a href="https://github.com/EstherAzevedo" target="_blank" rel="noopener noreferrer"
                         class="icon-btn">
