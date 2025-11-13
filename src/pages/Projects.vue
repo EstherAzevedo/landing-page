@@ -83,7 +83,7 @@ const projects = ref<Project[]>([
 
 .header {
     max-width: 1200px;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2rem;
     text-align: left;
 }
 
@@ -91,7 +91,6 @@ const projects = ref<Project[]>([
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    margin-bottom: 2rem;
     padding: 0.75rem 1.5rem;
     color: #f5f6f7;
     text-decoration: none;
