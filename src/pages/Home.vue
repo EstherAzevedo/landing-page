@@ -71,7 +71,7 @@
                         </div>
                         <div class="stat-divider"></div>
                         <div class="stat-item">
-                            <div class="stat-value">2022</div>
+                            <div class="stat-value">2020</div>
                             <div class="stat-label">Started</div>
                         </div>
                         <div class="stat-divider"></div>
