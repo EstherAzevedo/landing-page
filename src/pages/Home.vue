@@ -10,7 +10,7 @@
                 <div class="info">
                     <div class="greeting">Hello, I'm</div>
                     <h1 class="name">Esther Azevedo</h1>
-                    <h2 class="title">Information Systems Student</h2>
+                    <h2 class="title">Information Systems</h2>
                     <p class="institution">Universidade Federal do Ceará (UFC)</p>
 
                     <p class="description">
