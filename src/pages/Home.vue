@@ -1,4 +1,10 @@
+<script setup>
+// No script logic needed for this component
+import Navbar from '@/components/Navbar.vue';
+</script>
+
 <template>
+    <Navbar />
     <section class="home">
         <div class="background-decoration">
             <div class="circle circle-1"></div>
@@ -66,17 +72,17 @@
 
                     <div class="stats">
                         <div class="stat-item">
-                            <div class="stat-value">UFC</div>
-                            <div class="stat-label">University</div>
-                        </div>
-                        <div class="stat-divider"></div>
-                        <div class="stat-item">
-                            <div class="stat-value">2020</div>
-                            <div class="stat-label">Started</div>
-                        </div>
-                        <div class="stat-divider"></div>
-                        <div class="stat-item">
                             <div class="stat-value">Web</div>
+                            <div class="stat-label">Focus</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-value">Mobile</div>
+                            <div class="stat-label">Focus</div>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <div class="stat-value">Software</div>
                             <div class="stat-label">Focus</div>
                         </div>
                     </div>
@@ -94,6 +100,8 @@
     justify-content: center;
     min-height: 100vh;
     padding: 2rem 3rem;
+    padding-top: 7rem;
+    box-sizing: border-box;
     background: linear-gradient(to bottom, #1C0B2B 0%, #121212 100%);
     overflow: hidden;
 }
@@ -159,6 +167,7 @@
 
 .info {
     animation: fadeInLeft 0.8s ease-out;
+
 }
 
 @keyframes fadeInLeft {
@@ -312,7 +321,7 @@
 .photo-wrapper {
     position: relative;
     width: 100%;
-    max-width: 450px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
@@ -445,6 +454,10 @@
     .content {
         gap: 3rem;
         padding: 0 0.5rem;
+    }
+
+    .info {
+        padding-top: 4rem;
     }
 
     .name {

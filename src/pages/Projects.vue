@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Navbar from '@/components/Navbar.vue';
 import { ref } from 'vue'
 
 interface Project {
@@ -36,11 +37,9 @@ const projects = ref<Project[]>([
 </script>
 
 <template>
+    <Navbar />
     <section class="projects">
         <div class="header">
-            <router-link to="/" class="back-button">
-                ← Back Home
-            </router-link>
             <h1>My Projects</h1>
             <p class="subtitle">Here are some of my recent works</p>
         </div>
@@ -77,7 +76,7 @@ const projects = ref<Project[]>([
 <style scoped>
 .projects {
     min-height: 100vh;
-    padding: 2rem;
+    padding: 5rem 2rem 2rem;
     background: linear-gradient(to bottom, #1C0B2B 0%, #121212 100%);
 }
 

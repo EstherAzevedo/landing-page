@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import Navbar from '@/components/Navbar.vue';
 
 interface Skill {
     name: string
@@ -46,12 +47,9 @@ const interests = ref<string[]>([
 </script>
 
 <template>
+    <Navbar />
     <section class="about">
         <div class="container">
-            <router-link to="/" class="back-button-top">
-                ← Back Home
-            </router-link>
-
             <div class="hero-section">
                 <div class="about-photo">
                     <img src="/Esther_AboutMe.jpeg" alt="Esther Azevedo" />
@@ -135,7 +133,7 @@ const interests = ref<string[]>([
 <style scoped>
 .about {
     min-height: 100vh;
-    padding: 2rem;
+    padding: 5rem 2rem 2rem;
     color: #f5f6f7;
     background: linear-gradient(to bottom, #1C0B2B 0%, #121212 100%);
 }
@@ -143,6 +141,7 @@ const interests = ref<string[]>([
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 5rem;
 }
 
 .back-button-top {
