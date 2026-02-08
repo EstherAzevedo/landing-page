@@ -133,7 +133,7 @@ const interests = ref<string[]>([
 <style scoped>
 .about {
     min-height: 100vh;
-    padding: 5rem 2rem 2rem;
+    padding: 3rem 2rem 2rem;
     color: #f5f6f7;
     background: linear-gradient(to bottom, #1C0B2B 0%, #121212 100%);
 }
