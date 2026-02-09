@@ -26,7 +26,7 @@ const education = ref<Education[]>([
     {
         degree: 'Information Systems',
         institution: 'Universidade Federal do Ceará (UFC)',
-        period: '2020 - Present'
+        period: '2020 - 2025'
     },
     {
         degree: 'Computer Technician',
@@ -57,9 +57,10 @@ const interests = ref<string[]>([
                 <div class="hero-text">
                     <h1>About Me</h1>
                     <p class="intro">
-                        Hi! I'm Esther Azevedo, an Information Systems student at UFC and passionate about technology.
-                        I'm especially focused on web development and currently learning modern frameworks like Vue,
-                        while also exploring mobile development with a special interest in Android.
+                        Hi! I'm Esther Azevedo, a graduate in Information Systems from UFC and passionate about
+                        technology.
+                        I am especially focused on web development and have experience with modern frameworks like Vue,
+                        while also exploring mobile development with a particular interest in Android.
                     </p>
                     <p class="intro">
                         My goal is to combine creativity and logic to build impactful applications while constantly
@@ -69,7 +70,27 @@ const interests = ref<string[]>([
                 </div>
             </div>
 
+
             <div class="sections">
+                <div class="section">
+                    <h2>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+                        </svg>
+                        Education
+                    </h2>
+                    <div class="education-list">
+                        <div v-for="(edu, index) in education" :key="index" class="education-item">
+                            <h3>{{ edu.degree }}</h3>
+                            <p class="institution">{{ edu.institution }}</p>
+                            <p class="period">{{ edu.period }}</p>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="section">
                     <h2>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -92,23 +113,6 @@ const interests = ref<string[]>([
                     </div>
                 </div>
 
-                <div class="section">
-                    <h2>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                            viewBox="0 0 24 24">
-                            <path
-                                d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
-                        </svg>
-                        Education
-                    </h2>
-                    <div class="education-list">
-                        <div v-for="(edu, index) in education" :key="index" class="education-item">
-                            <h3>{{ edu.degree }}</h3>
-                            <p class="institution">{{ edu.institution }}</p>
-                            <p class="period">{{ edu.period }}</p>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="section">
                     <h2>
