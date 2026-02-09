@@ -8,15 +8,15 @@ import Navbar from '@/components/Navbar.vue'
     <section class="thanks">
         <div class="container">
             <div class="card">
-                <h1>Mensagem enviada ✨</h1>
+                <h1>Thank you for your message ✨</h1>
 
                 <p>
-                    Obrigada por entrar em contato!
-                    Responderei o mais breve possível.
+                    Thank you for getting in touch!
+                    I’ll get back to you as soon as possible.
                 </p>
 
                 <router-link to="/" class="btn">
-                    Home
+                    Continue browsing
                 </router-link>
             </div>
         </div>

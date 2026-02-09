@@ -21,11 +21,11 @@ function closeMenu() {
             </router-link>
             <nav class="nav-links">
                 <router-link to="/" class="nav-item">Home</router-link>
-                <router-link to="/projects" class="nav-item">Projetos</router-link>
-                <router-link to="/aboutme" class="nav-item">Sobre</router-link>
-                <router-link to="/contact" class="nav-item">Contato</router-link>
+                <router-link to="/projects" class="nav-item">Projects</router-link>
+                <router-link to="/aboutme" class="nav-item">About</router-link>
+                <router-link to="/contact" class="nav-item">Contact</router-link>
                 <a href="/curriculo.pdf" target="_blank" class="nav-btn">
-                    Currículo
+                    Resume
                 </a>
             </nav>
 
@@ -38,11 +38,11 @@ function closeMenu() {
         <!-- Menu mobile -->
         <nav v-if="isOpen" class="mobile-menu">
             <router-link @click="closeMenu" to="/">Home</router-link>
-            <router-link @click="closeMenu" to="/projects">Projetos</router-link>
-            <router-link @click="closeMenu" to="/aboutme">Sobre</router-link>
-            <router-link @click="closeMenu" to="/contact">Contato</router-link>
+            <router-link @click="closeMenu" to="/projects">Projects</router-link>
+            <router-link @click="closeMenu" to="/aboutme">About</router-link>
+            <router-link @click="closeMenu" to="/contact">Contact</router-link>
             <a href="/curriculo.pdf" target="_blank" class="mobile-btn" @click="closeMenu">
-                Currículo
+                Resume
             </a>
         </nav>
     </header>
