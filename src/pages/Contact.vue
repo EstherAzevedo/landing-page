@@ -9,21 +9,22 @@ import Navbar from '@/components/Navbar.vue';
                 <div class="contact-text">
                     <h1>Contact</h1>
                     <p class="subtitle">
-                        Fique à vontade para me enviar uma mensagem.
-                        Responderei o mais breve possível.
+                        Feel free to send me a message.
+                        I’ll respond as soon as possible.
                     </p>
 
                     <form action="https://formsubmit.co/0459f374ca63b416fb4baf017a21b45d" method="POST">
-                        <input type="text" name="name" placeholder="Seu nome" required />
-                        <input type="email" name="email" placeholder="Seu email" required />
-                        <textarea name="message" placeholder="Mensagem"></textarea>
+                        <input type="text" name="name" placeholder="Your name" required />
+                        <input type="email" name="email" placeholder="Your email" required />
+                        <textarea name="message" placeholder="Message"></textarea>
                         <input type="hidden" name="_next" value="http://localhost:5173/thanks">
                         <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_subject" value="Novo contato pelo portfólio">
-                        <button type="submit">Enviar</button>
+                        <input type="hidden" name="_subject" value="New contact from portfolio">
+                        <button type="submit">Send Message</button>
 
                     </form>
                 </div>
+
                 <div class="social-links">
                     <a href="https://github.com/EstherAzevedo" target="_blank" rel="noopener noreferrer"
                         class="social-btn" aria-label="GitHub">
@@ -49,22 +50,19 @@ import Navbar from '@/components/Navbar.vue';
 
 <style scoped>
 .contact {
-    min-height: 100vh;
     box-sizing: border-box;
-    padding: 6rem 2rem 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(to bottom, #1C0B2B 0%, #121212 100%);
     color: #f5f6f7;
+    min-height: 100vh;
+    padding: 6rem 2rem 2rem;
 }
 
-
 .container {
-    max-width: 800px;
+    max-width: 780px;
     width: 100%;
-
-
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -84,6 +82,10 @@ import Navbar from '@/components/Navbar.vue';
     color: #BC54E9;
 }
 
+.contact-text {
+    align-items: center;
+}
+
 .subtitle {
     font-size: 1.1rem;
     color: #d0d0d0;
@@ -93,6 +95,7 @@ import Navbar from '@/components/Navbar.vue';
 
 
 form {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
@@ -117,6 +120,12 @@ textarea {
 input::placeholder,
 textarea::placeholder {
     color: #a0a0a0;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #BC54E9;
+    box-shadow: 0 0 0 2px rgba(188, 84, 233, 0.2);
 }
 
 button {
