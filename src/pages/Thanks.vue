@@ -16,7 +16,7 @@ import Navbar from '@/components/Navbar.vue'
                 </p>
 
                 <router-link to="/" class="btn">
-                    Continue browsing
+                    Continue
                 </router-link>
             </div>
         </div>
