@@ -17,7 +17,7 @@ import Navbar from '@/components/Navbar.vue';
                         <input type="text" name="name" placeholder="Your name" required />
                         <input type="email" name="email" placeholder="Your email" required />
                         <textarea name="message" placeholder="Message"></textarea>
-                        <input type="hidden" name="_next" value="http://localhost:5173/thanks">
+                        <input type="hidden" name="_next" value="https://estherazevedo.github.io/portfolio/thanks">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_subject" value="New contact from portfolio">
                         <button type="submit">Send Message</button>
