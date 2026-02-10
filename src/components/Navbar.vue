@@ -24,7 +24,8 @@ function closeMenu() {
                 <router-link to="/projects" class="nav-item">Projects</router-link>
                 <router-link to="/aboutme" class="nav-item">About</router-link>
                 <router-link to="/contact" class="nav-item">Contact</router-link>
-                <a href="/curriculo.pdf" target="_blank" class="nav-btn">
+                <a href="/portfolio/curriculo.pdf" target="_blank" class="nav-btn">
+
                     Resume
                 </a>
             </nav>
@@ -41,7 +42,7 @@ function closeMenu() {
             <router-link @click="closeMenu" to="/projects">Projects</router-link>
             <router-link @click="closeMenu" to="/aboutme">About</router-link>
             <router-link @click="closeMenu" to="/contact">Contact</router-link>
-            <a href="/curriculo.pdf" target="_blank" class="mobile-btn" @click="closeMenu">
+            <a href="/portfolio/curriculo.pdf" target="_blank" class="mobile-btn" @click="closeMenu">
                 Resume
             </a>
         </nav>
